@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAP>
+	<settings>
+		<relax>FALSE</relax>
+		<steady>TRUE</steady>
+		<maxtime>30</maxtime>
+		<delta_time>0.01000</delta_time>
+		<start_forces>0</start_forces>
+		<stiff_wing>1</stiff_wing>
+		<fixed_lift>0</fixed_lift>
+		<gust_mode>0</gust_mode>
+	</settings>
+
+	<conditions>
+		<density>1.225</density>
+		<kin_viscosity>1.46e-05</kin_viscosity>
+		<gust_amplitude>0</gust_amplitude>
+		<gust_length>0</gust_length>
+		<gust_start>0</gust_start>
+	</conditions>
+
+	<vehicle>
+		<global_x>0</global_x>
+		<global_y>0</global_y>
+		<global_z>0</global_z>
+
+		<speed>20</speed>
+		<weight>FALSE</weight>
+		<interference_drag>0</interference_drag>
+
+		<alpha>0</alpha>
+		<beta>0</beta>
+		<roll>0</roll>
+		<fpa>0</fpa>
+		<track>0</track>
+		<radius>nan</radius>
+
+		<ref_area> 0.03660</ref_area>
+		<ref_span> 0.33200</ref_span>
+		<ref_cmac> 0.12100</ref_cmac>
+
+		<wing>
+			<symmetry>TRUE</symmetry>
+			<incidence>0</incidence>
+			<trimable>FALSE</trimable>
+			<triangular_elements>FALSE</triangular_elements>
+
+			<chordwise_elements>1</chordwise_elements>
+
+			<vehicle_x>0</vehicle_x>
+			<vehicle_y>0</vehicle_y>
+			<vehicle_z>0</vehicle_z>
+
+			<panel>
+				<spanwise_elements>1</spanwise_elements>
+				<strip_airfoil>S5010</strip_airfoil>
+				<section>
+					<wing_x> 0.00000</wing_x>
+					<wing_y> 0.00000</wing_y>
+					<wing_z> 0.00000</wing_z>
+					<chord> 0.17000</chord>
+					<twist>0</twist>
+				</section>
+				<section>
+					<wing_x> 0.00000</wing_x>
+					<wing_y> 0.16600</wing_y>
+					<wing_z> 0.00000</wing_z>
+					<chord> 0.05100</chord>
+					<twist>0</twist>
+				</section>
+			</panel>
+		</wing>
+	</vehicle>
+</VAP>

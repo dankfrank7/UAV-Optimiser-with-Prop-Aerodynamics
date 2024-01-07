@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAP>
+	<settings>
+		<relax>TRUE</relax>
+		<steady>TRUE</steady>
+		<maxtime>30</maxtime>
+		<delta_time>0.00500</delta_time>
+		<start_forces>0</start_forces>
+		<stiff_wing>1</stiff_wing>
+		<fixed_lift>0</fixed_lift>
+		<gust_mode>0</gust_mode>
+	</settings>
+
+	<conditions>
+		<density>1.225</density>
+		<kin_viscosity>1.46e-05</kin_viscosity>
+		<gust_amplitude>0</gust_amplitude>
+		<gust_length>0</gust_length>
+		<gust_start>0</gust_start>
+	</conditions>
+
+	<vehicle>
+		<global_x>0</global_x>
+		<global_y>0</global_y>
+		<global_z>0</global_z>
+
+		<speed>5</speed>
+		<weight>FALSE</weight>
+		<interference_drag>0</interference_drag>
+
+		<alpha>0</alpha>
+		<beta>0</beta>
+		<roll>0</roll>
+		<fpa>0</fpa>
+		<track>0</track>
+		<radius>nan</radius>
+
+		<ref_area> 1</ref_area>
+		<ref_span> 1</ref_span>
+		<ref_cmac> 1</ref_cmac>
+
+		<rotor>
+			<rpm>2250</rpm>
+			<collective>0</collective>
+			<ref_diam>1.524</ref_diam>
+			<rotation_direction>CCW</rotation_direction>
+
+			<veh_x_hub>-0.1</veh_x_hub>
+			<veh_y_hub>0</veh_y_hub>
+			<veh_z_hub>0</veh_z_hub>
+
+			<veh_x_axis>-1</veh_x_axis>
+			<veh_y_axis>0</veh_y_axis>
+			<veh_z_axis>0</veh_z_axis>
+
+			<blades>3</blades>
+
+			<chordwise_elements>1</chordwise_elements>
+
+			<panel>
+				<strip_airfoil>rootFile</strip_airfoil>
+				<spanwise_elements>1</spanwise_elements>
+				<section>
+					<rotor_x>-0.060812</rotor_x>
+					<rotor_y>0.152400</rotor_y>
+					<rotor_z>0.000000</rotor_z>
+					<chord>0.119867</chord>
+					<twist>70.516094</twist>
+				</section>
+				<section>
+					<rotor_x>-0.067087</rotor_x>
+					<rotor_y>0.182880</rotor_y>
+					<rotor_z>0.000000</rotor_z>
+					<chord>0.130749</chord>
+					<twist>68.371899</twist>
+				</section>
+			</panel>
+		</rotor>
+	</vehicle>
+</VAP>
