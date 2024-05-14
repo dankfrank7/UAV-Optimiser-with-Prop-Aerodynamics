@@ -4,6 +4,7 @@ Propeller Slipstream Effects**
 Author: Thomas Ryan
 
 The University of Sydney
+
 School of Aeronautical, Mechanical and Mechatronic Engineering
 
 Abstract
