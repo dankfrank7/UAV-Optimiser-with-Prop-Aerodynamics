@@ -1,10 +1,10 @@
 **Micro-UAV Optimisation Including
-Propeller Slipstream Effects**
+Propeller Slipstream Effects**
 
 Author: Thomas Ryan
-_The University of Sydney
+
+The University of Sydney
 School of Aeronautical, Mechanical and Mechatronic Engineering
-_
 
 Abstract
 
